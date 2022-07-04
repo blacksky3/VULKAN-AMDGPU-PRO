@@ -28,7 +28,7 @@ pkgrel=1
 arch=(x86_64)
 url='https://repo.radeon.com/amdgpu'
 license=(custom: multiple)
-groups=('Radeon_Software_for_Linux')
+groups=('Radeon-Software-for-Linux')
 source=(progl
         progl.bash-completion
         https://repo.radeon.com/amdgpu/${major}/ubuntu/pool/proprietary/a/appprofiles-amdgpu-pro/libgl1-amdgpu-pro-appprofiles_${major}-${minor}~${ubuntu_ver}_all.deb
