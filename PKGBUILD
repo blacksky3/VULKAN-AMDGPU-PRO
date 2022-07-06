@@ -103,7 +103,7 @@ package_lib32-vulkan-amdgpu-pro(){
   pkgdesc='AMDGPU Pro Vulkan driver (32-bit)'
   license=(custom: AMDGPU-PRO EULA)
   provides=(lib32-vulkan-driver)
-  depends=(lib32-vulkan-icd-loader)
+  depends=(lib32-vulkan-icd-loader vulkan-amdgpu-pro=${major}_${minor}-${pkgrel})
   optdepends=('lib32-openssl: Warning unspecified optdep description')
 
   extract_deb "${srcdir}"/vulkan-amdgpu-pro_${major}-${minor}~${ubuntu_ver}_i386.deb
